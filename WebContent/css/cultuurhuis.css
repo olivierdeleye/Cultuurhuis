@@ -1,0 +1,136 @@
+@CHARSET "ISO-8859-1";
+
+body { 
+	font-family: Verdana;
+}
+
+h1 {
+	
+	color: maroon;
+}
+h2 {
+	font-weight: bold;
+}
+	
+dd,dt {
+	 margin-left: 0;
+}
+
+dt {
+	
+	margin-top : 1em;
+}
+
+ul.zebra li:nth-child(even) {
+	background-color: #efefef;
+	list-style: none;
+	padding-bottom: 0.1em;
+}
+ul.zebra li:nth-child(odd) {
+	background-color: #c6d1dd;
+	list-style: none;
+}
+
+table tr.even{
+	
+	background-color: #CCCCCC;
+	font-size: 0.85em;
+	padding-top:0.2em;
+	padding-bottom:0.2em;
+	
+}
+
+table tr.oneven {
+	
+	background-color: #F4F4F4;
+	font-size: 0.85em;
+	padding-top:0.2em;
+	padding-bottom:0.2em;
+}
+
+
+ul.menu {
+	font-size:0.85em;
+	list-style : none;
+	padding : 0;
+}
+
+ul.menu li {
+	
+	display : inline;
+}
+
+a {
+	color: navy;
+}
+
+a:visited {
+	
+	 text-decoration : none;
+	
+}
+
+a:hover {
+	
+	color: purple;
+}
+
+a:active {
+	
+	color : red;
+}
+
+.fout {
+	font-size:small;
+	color: red;
+}
+
+.boldmaroon {
+	color:maroon;
+	font-weight: bold;
+}
+
+section.boldsmall{
+	font-size:small;
+	font-weight:bold;
+	color:#194775;
+}
+
+input  {
+	display: block;
+	margin-top:0.15em;
+	margin-bottom:0.45em;
+	
+}
+
+input[type='checkbox'] {
+	display: inline-block;
+}
+
+span.fout {
+	
+	margin-left: 0.5em;
+}
+
+ul.zonderbolletjes{
+	
+	list-style: none;
+}
+
+ul.blokjes{
+	list-style:square;
+	color:red;
+	font-size:small;
+}
+
+
+td.right{
+	
+	text-align: right;
+	
+}
+td.center{
+	
+	text-align: center;
+	
+}

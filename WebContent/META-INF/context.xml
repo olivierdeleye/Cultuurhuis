@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+ <Resource name ="jdbc/cultuurhuis" type="javax.sql.DataSource" driverClassName = "com.mysql.jdbc.Driver"
+    url ="jdbc:mysql://localhost:3306/cultuurhuis"
+    username = "root"
+    password ="vdab"
+    auth ="Container"
+    factory ="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+    validationInterval ="3600000"
+    testOnBorrow ="true"
+    validationQuery ="select 1"/>
+</Context>
